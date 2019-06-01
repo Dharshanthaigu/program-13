@@ -1,9 +1,8 @@
-def prime(a):
-  for i in range(2,num):
-    if(num%i==0):
-      print("yes")
-    else:
+a=int(input())
+for i in range(2,a):
+    if a%i==0:
       print("no")
-c=int(input())
-d=prime(c)
-print(d)
+      break
+else:
+    print ("yes")
+
